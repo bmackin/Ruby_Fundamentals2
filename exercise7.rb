@@ -18,6 +18,11 @@ students.merge!(:cohort4 => 43)
 output_hash(students)
 
 
+# commit 7-3 Output cohort names with keys method
+puts students.keys
+
+
+
 
 
 
