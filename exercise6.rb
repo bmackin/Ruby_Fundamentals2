@@ -25,3 +25,7 @@ puts grocery_list[1]
 
 # commit 6-6 sort grocery list
 puts grocery_list.sort
+
+# commit 6-7 delete salmon from list
+grocery_list.delete_at(3)
+output_arr(grocery_list)
