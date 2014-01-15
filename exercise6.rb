@@ -9,3 +9,6 @@ def output_arr(arr)
 end
 
 output_arr(grocery_list)
+
+# commit 6-3 - output length
+puts grocery_list.length
