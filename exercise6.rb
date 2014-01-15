@@ -22,3 +22,6 @@ if grocery_list.include?("bananas")
 
 	# commit 6-5 display second item (index 1)
 puts grocery_list[1]
+
+# commit 6-6 sort grocery list
+puts grocery_list.sort
