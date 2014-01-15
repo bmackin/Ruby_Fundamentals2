@@ -30,6 +30,9 @@ end
 student_increase(students)
 output_hash(students)
 
+student_increase(students)
+output_hash(students)
+# hash[key] =
 
 # commit 7-5 Delete 2nd cohort, redisplay
 students.delete(:cohort2)
@@ -37,6 +40,12 @@ students.delete(:cohort2)
 output_hash(students)
 
 
+
+# commit 7-6 BONUS: Calculate the total amount of students in all cohorts by using each and incrementing a variable. Output the result.
+
+result = 0
+students.each { |key, value| result += value }
+puts result
 
 
 
