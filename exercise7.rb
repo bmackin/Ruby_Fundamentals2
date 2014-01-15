@@ -22,6 +22,15 @@ output_hash(students)
 puts students.keys
 
 
+# commit 7-4 Increase number of students 5%
+def student_increase(hash)
+	hash.each{ |key, value| hash[key] = (value * 1.05).to_i }
+end
+
+student_increase(students)
+output_hash(students)
+
+
 
 
 
