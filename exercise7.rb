@@ -31,6 +31,12 @@ student_increase(students)
 output_hash(students)
 
 
+# commit 7-5 Delete 2nd cohort, redisplay
+students.delete(:cohort2)
+
+output_hash(students)
+
+
 
 
 
