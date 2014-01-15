@@ -12,3 +12,10 @@ output_arr(grocery_list)
 
 # commit 6-3 - output length
 puts grocery_list.length
+
+# commit 6-4 - check array
+if grocery_list.include?("bananas")
+        puts "You need to pick up bananas"
+	else 
+        puts "You don't need to pick up bananas today"
+	end
